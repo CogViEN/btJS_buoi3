@@ -1,0 +1,38 @@
+html{
+    background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );
+}
+
+
+.box{
+    width: 600px;
+    height: 400px;
+    margin: 0 auto 0;
+    background: greenyellow;
+    border-radius: 10%;
+}
+
+.box h1{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+#subMit{
+    margin-top: 10px;
+}
+
+#kq{
+    margin-top: 10px;
+    
+}
+
+#kq2{
+    overflow: auto;
+    max-height: 142px;
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
