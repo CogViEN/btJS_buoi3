@@ -1,27 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
-    <div class="box">
-        <h1>Nhập số</h1>
-        <form action="#" >
-            <input type="number" id="numBer">
-            <button type="button" id="btn" onclick="Nhap()">Nhập</button>
-            <br>
-            <button type="button" id="subMit" onclick="xuLi()">In kết quả</button>
-            <div id="kq"></div>
-            <div id="kq2"></div>
-        </form>
-        
-    </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./index.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="box">
+            <div class="heading">Phát sinh mảng và tính toán</div>
+            <form action="#">
+                <div class="control1">
+                    <div class="title">Nhập số phần tử</div>
+                    <input type="number" id="numBer" />
+                </div>
+                <div class="cotrol2">
+                    <button id="btn" onclick="tinh()">
+                        Phát sinh và tính toán
+                    </button>
+                </div>
+            </form>
+            <div class="res">
+                <div class="resSub">
+                    <div class="title">Mảng</div>
+                    <div id="mang"></div>
+                </div>
+                <div class="resSub">
+                    <div class="title">Giá trị lớn nhất trong mảng</div>
+                    <div id="maxNum"></div>
+                </div>
+                <div class="resSub">
+                    <div class="title">Giá trị nhỏ nhất trong mảng</div>
+                    <div id="minNum"></div>
+                </div>
+                <div class="resSub">
+                    <div class="title">Tổng mảng</div>
+                    <div id="sum"></div>
+                </div>
+                <p>
+                    (<b>Ghi chú:</b> Các phần tử trong mảng sẽ có giá trị từ 0
+                    đến 20)
+                </p>
+            </div>
+        </div>
 
-    <!-- Script -->
-    <script src="./index.js"></script>
-</body>
+        <!-- Script -->
+        <script src="./index.js"></script>
+    </body>
 </html>

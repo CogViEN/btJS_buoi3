@@ -1,38 +1,88 @@
-html{
-    background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );
-}
-
-
-.box{
-    width: 600px;
-    height: 400px;
-    margin: 0 auto 0;
-    background: greenyellow;
-    border-radius: 10%;
-}
-
-.box h1{
-    text-align: center;
-}
-
-form{
-    text-align: center;
-}
-
-#subMit{
-    margin-top: 10px;
-}
-
-#kq{
-    margin-top: 10px;
-    
-}
-
-#kq2{
-    overflow: auto;
-    max-height: 142px;
-    margin-top: 12px;
+body {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.box {
+    width: 530px;
+    height: 300px;
+    background: pink;
+}
+
+.heading {
+    font-size: 150%;
+    text-align: center;
+    background-color: blueviolet;
+    color: whitesmoke;
+    font-family: "Viaoda Libre", "cursive";
+    font-weight: 900;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.control1 {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5px;
+    border-bottom: 2px solid whitesmoke;
+}
+
+#btn {
+    margin-left: 296px;
+    margin-top: 3px;
+}
+
+.res {
+    margin-top: 12px;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(
+        circle,
+        rgba(238, 174, 202, 1) 0%,
+        rgba(148, 187, 233, 1) 100%
+    );
+}
+
+.resSub {
+    display: flex;
+    justify-content: center;
+    margin-right: 42px;
+}
+
+.resSub .title {
+    width: 179px;
+    height: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.resSub div:last-child {
+    width: 100px;
+    height: 21px;
+    margin-top: 16px;
+    background: whitesmoke;
+}
+
+#mang {
+    display: inline-block;
+    width: 230px;
+    margin-right: -46px;
+}
+
+.resSub:first-child .title {
+    margin-left: 84px;
+}
+
+p {
+    text-align: center;
+}
+
+b {
+    color: red;
 }
